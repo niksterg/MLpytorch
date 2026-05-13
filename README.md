@@ -11,6 +11,7 @@ gradient descent, feature scaling, mini-batch training, and PyTorch's
 
 - `01_linear_regression_pytorch.ipynb` - a one-hour notebook on linear
   regression with PyTorch.
+- `environment.yml` - optional Conda environment for running the notebook.
 
 ## Notebook Topics
 
@@ -33,10 +34,19 @@ gradient descent, feature scaling, mini-batch training, and PyTorch's
 
 The notebook is intentionally lightweight.
 
-Install the main dependencies with:
+Use Python 3.11 or newer.
+
+You can install the dependencies with pip:
 
 ```bash
 pip install torch numpy matplotlib jupyter
+```
+
+Or create the provided Conda environment:
+
+```bash
+conda env create -f environment.yml
+conda activate mlpytorch
 ```
 
 ## Usage
