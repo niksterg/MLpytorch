@@ -4,8 +4,8 @@ PyTorch tutorials for introducing Machine Learning with Pytorch.
 
 The first notebook uses a physics-first example: calibrating a spring force
 sensor from noisy measurements. Students connect Hooke's law, least squares,
-gradient descent, feature scaling, mini-batch training, and PyTorch's
-`nn.Linear` API.
+gradient descent, feature scaling, mini-batch training, scikit-learn
+preprocessing, and PyTorch's `nn.Linear` API.
 
 ## Contents
 
@@ -23,6 +23,7 @@ gradient descent, feature scaling, mini-batch training, and PyTorch's
 - Feature scaling and converting parameters back to physical units
 - Static and interactive plots of the loss landscape
 - Mini-batch training from scratch
+- Standardizing features with scikit-learn
 - The concise PyTorch implementation with:
   - `TensorDataset`
   - `DataLoader`
@@ -40,7 +41,7 @@ Use Python 3.11 or newer.
 You can install the dependencies with pip:
 
 ```bash
-pip install torch numpy matplotlib plotly jupyter
+pip install torch "numpy<2" matplotlib plotly scikit-learn jupyter
 ```
 
 Or create the provided Conda environment:
