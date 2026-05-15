@@ -21,6 +21,7 @@ gradient descent, feature scaling, mini-batch training, and PyTorch's
 - Classical least squares with `torch.linalg.lstsq`
 - Manual gradient descent with autograd
 - Feature scaling and converting parameters back to physical units
+- Static and interactive plots of the loss landscape
 - Mini-batch training from scratch
 - The concise PyTorch implementation with:
   - `TensorDataset`
@@ -39,7 +40,7 @@ Use Python 3.11 or newer.
 You can install the dependencies with pip:
 
 ```bash
-pip install torch numpy matplotlib jupyter
+pip install torch numpy matplotlib plotly jupyter
 ```
 
 Or create the provided Conda environment:
@@ -48,6 +49,10 @@ Or create the provided Conda environment:
 conda env create -f environment.yml
 conda activate mlpytorch
 ```
+
+When the notebook is run on Google Colab or Kaggle, it can automatically check
+for missing pip packages and install only the ones that are not already present.
+Local Jupyter runs skip automatic package installation.
 
 ## Usage
 

@@ -7,4 +7,5 @@ dependencies:
   - pytorch
   - numpy
   - matplotlib
+  - plotly
   - jupyter
