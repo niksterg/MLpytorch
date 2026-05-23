@@ -1,0 +1,17 @@
+name: mlpytorch130
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch-gpu=2.10.*=cuda130_generic*
+  - torchvision
+  - torchaudio
+  - cuda-version=13.0
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - plotly
+  - jupyterlab
+  - ipykernel
+  - torchmetrics
