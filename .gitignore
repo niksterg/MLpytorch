@@ -1,0 +1,29 @@
+# Downloaded datasets (Fashion-MNIST, EuroSAT, etc.)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Saved model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
