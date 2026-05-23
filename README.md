@@ -52,6 +52,14 @@ conda env create -f environment.yml
 conda activate mlpytorch
 ```
 
+For newer NVIDIA gpus that require cuda 13, use this environment, instead:
+
+```bash
+conda config --set channel_priority strict
+conda env create -f environment-cuda130.yml
+conda activate mlpytorch130
+```
+
 When the notebook is run on Google Colab or Kaggle, it can automatically check
 for missing pip packages and install only the ones that are not already present.
 Local Jupyter runs skip automatic package installation.
