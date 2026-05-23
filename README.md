@@ -47,6 +47,7 @@ pip install torch "numpy<2" matplotlib plotly scikit-learn jupyter
 Or create the provided Conda environment:
 
 ```bash
+conda config --set channel_priority strict
 conda env create -f environment.yml
 conda activate mlpytorch
 ```
